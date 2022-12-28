@@ -3,6 +3,7 @@ import config from '../config';
 
 import { BuiltinQuotes, Quote } from '../quote';
 import { CurrentQuote } from './action-types';
+import { Visualization, Visualizations } from './visualization';
 
 export function getBuiltinQuotes(state: IState) {
 	if (state.settings == null) return [];
@@ -40,13 +41,11 @@ export function currentQuote(state: IState): Quote | undefined {
 		return state.settings.customQuotes.find((quote) => quote.id === currentId);
 	} else {
 		const currentId = state.currentQuote.id;
-		if (
-			!state.settings.builtinQuotesEnabled ||
-			state.settings.hiddenBuiltinQuotes.indexOf(currentId) >= 0
-		) {
-			// Current quote has been hidden
-			return undefined;
-		}
 		return BuiltinQuotes.find((quote) => quote.id === currentId);
 	}
+}
+
+export function currentVisualization(state: IState): Visualization | undefined {
+	let randomNumber = Math.floor(Math.random() * Visualizations.length);
+	return Visualizations[randomNumber];
 }

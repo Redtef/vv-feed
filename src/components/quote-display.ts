@@ -1,5 +1,5 @@
 import { h } from 'snabbdom/h';
-import { currentQuote } from '../store/selectors';
+import { currentQuote, currentVisualization } from '../store/selectors';
 import {
 	removeCurrentQuote,
 	selectNewQuote,
@@ -39,10 +39,11 @@ const QuoteMenu = (store: Store) => {
 const QuoteDisplay = (store: Store) => {
 	const state = store.getState();
 	const quote = currentQuote(state);
-
+	const visualization = currentVisualization(state);
 	if (quote == null) return null;
 
 	const toggleMenu = (e: MouseEvent) => {
+		``;
 		e.preventDefault();
 		store.dispatch(menuToggle());
 	};
@@ -57,14 +58,20 @@ const QuoteDisplay = (store: Store) => {
 		]),
 
 		h('div', [
-			h('p.nfe-quote-text', [
-				h('span', '“'),
-				h('span', quote.text),
-				h('span', '”'),
+			h('div.nfe-quote-text', { style: { fontWeight: 'bold' } }, [
+				h('img.nfe-img', {
+					props: {
+						src: visualization?.link,
+					},
+				}),
 			]),
-			h('p.nfe-quote-source', [h('span', '~ '), h('span', quote.source)]),
+			h('p.nfe-quote-source', [
+				h('span', '~ '),
+				h('span', visualization?.quote),
+			]),
 		]),
 	]);
 };
 
 export default QuoteDisplay;
+``;
