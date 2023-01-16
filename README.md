@@ -1,13 +1,15 @@
 # News Feed Eradicator
 
-A browser extension that deletes your Facebook news feed
-and replaces it with a nice quote.
+A browser extension that deletes the main feed on your social media of choice
+and replaces with a visual from [Visualize Value](https://visualizevalue.com/) by [@Jackbutcher](https://twitter.com/jackbutcher).
+
+This Extension is also based on the work of [News Feed Eradicator](https://github.com/jordwest/news-feed-eradicator) by [@JordWest](https://github.com/jordwest). Which replaces your news feed by a nice Quote.
 
 [Install Chrome Extension](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en)
 
 [Install Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/news-feed-eradicator/)
 
-![Screenshot](https://raw.githubusercontent.com/jordwest/news-feed-eradicator/master/assets/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/redtef/news-feed-eradicator/master/assets/screenshot.jpg)
 
 ## Development
 
