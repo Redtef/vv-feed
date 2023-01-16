@@ -9,9 +9,12 @@ This Extension is also based on the work of [News Feed Eradicator](https://githu
 
 [Install Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/news-feed-eradicator/)
 
-![Screenshot]("https://github.com/Redtef/vv-feed/blob/master/assets/screenshot.png")
+![Screenshot](/assets/screenshot.png)
 
-![This is an image](/assets/screenshot.png)
+## Todo 
+[] add the VV font 
+[] make the options panel more vv style
+
 ## Development
 
 This plugin is built as a WebExtension - a standard for browser plugins currently supported in both Chrome and Firefox.
