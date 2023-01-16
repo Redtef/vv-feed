@@ -11,6 +11,7 @@ This Extension is also based on the work of [News Feed Eradicator](https://githu
 
 ![Screenshot]("https://github.com/Redtef/vv-feed/blob/master/assets/screenshot.png")
 
+![This is an image](/assets/screenshot.png)
 ## Development
 
 This plugin is built as a WebExtension - a standard for browser plugins currently supported in both Chrome and Firefox.
