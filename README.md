@@ -1,4 +1,4 @@
-# News Feed Eradicator
+# VV Feed
 
 A browser extension that deletes the main feed on your social media of choice
 and replaces with a visual from [Visualize Value](https://visualizevalue.com/) by [@Jackbutcher](https://twitter.com/jackbutcher).
