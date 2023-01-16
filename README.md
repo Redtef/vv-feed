@@ -12,8 +12,8 @@ This Extension is also based on the work of [News Feed Eradicator](https://githu
 ![Screenshot](/assets/screenshot.png)
 
 ## Todo 
-[] add the VV font 
-[] make the options panel more vv style
+- [ ] add the VV font 
+- [ ] make the options panel more vv style
 
 ## Development
 
