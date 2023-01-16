@@ -9,7 +9,7 @@ This Extension is also based on the work of [News Feed Eradicator](https://githu
 
 [Install Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/news-feed-eradicator/)
 
-![Screenshot](https://raw.githubusercontent.com/redtef/news-feed-eradicator/master/assets/screenshot.jpg)
+![Screenshot]("https://github.com/Redtef/vv-feed/blob/master/assets/screenshot.png")
 
 ## Development
 
